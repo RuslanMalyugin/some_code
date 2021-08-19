@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir fuse_c 2>&1 | grep -v "File exists" || true
+fusermount -u fuse_c
+truncate --size=0 err.txt || true
+fuse_c_example/build/fuse-example fuse_c -f --src file-name

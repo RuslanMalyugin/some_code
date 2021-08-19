@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ -m64 -masm=att -O3 "$1" -S -Os -o "$2"

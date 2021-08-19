@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -g3 -m64 -masm=att "$1" "$2" -o "testfile.exe"

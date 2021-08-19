@@ -1,0 +1,1 @@
+/usr/bin/cc  -fsanitize=address -fsanitize=leak -g   CMakeFiles/fuse-example.dir/main.c.o  -o fuse-example  -lfuse3 -lpthread 

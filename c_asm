@@ -1,0 +1,2 @@
+#!/bin/bas
+arm-linux-gnueabi-gcc -S -Os -marm $1 -o /dev/stdout | grep -v eabi > $2

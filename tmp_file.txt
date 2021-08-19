@@ -1,0 +1,9 @@
+#include <stdio.h> 
+  struct stringint 
+main () 
+{
+int expr = 5+5
+; 
+return 0;
+}
+ 
